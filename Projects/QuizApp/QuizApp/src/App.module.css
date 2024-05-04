@@ -1,0 +1,15 @@
+body{
+  background-color: rgb(171, 205, 238);
+}
+.app{
+     border: 1px solid black;
+     width: 400px;
+     height: 400px;
+     margin: auto;   
+}
+
+.textCenter{
+  text-align: center;
+}
+
+

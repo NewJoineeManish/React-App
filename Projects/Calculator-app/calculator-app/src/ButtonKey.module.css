@@ -1,0 +1,22 @@
+.buttonsContainer{
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: aquamarine;
+  border: 1px solid red;
+}
+
+.button{
+  /* background-color: #fff;
+  color: black; */
+  width: 45px;
+  height: 45px;
+  font-weight: 700;
+  /* margin: 3px; */
+}

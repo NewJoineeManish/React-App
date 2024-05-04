@@ -1,0 +1,224 @@
+// var questions = [
+//   {
+//     question: "Could you tell me ________?",
+//     options: [
+//       "where is the bus stop",
+//       "the bus stop is where",
+//       "where the bus stop is",
+//       "is where the bus stop",
+//     ],
+//     correctAnswer: "where is the bus stop",
+//   },
+//   {
+//     question: "I ________ to Germany last year.",
+//     options: ["go", "goed", "gone", "went"],
+//     correctAnswer: "went",
+//   },
+//   {
+//     question: "He ________ ever works as ________ as he should.",
+//     options: [
+//       "hardly … hardly",
+//       "hard … hard",
+//       "hard … hardly",
+//       "hardly … hard",
+//     ],
+//     correctAnswer: "hardly … hard",
+//   },
+//   {
+//     question: "Where ________ he work?",
+//     options: ["don't", "do", "does", "is"],
+//     correctAnswer: "does",
+//   },
+//   {
+//     question: "I’d love to ________ in the 19th century.",
+//     options: ["live", "lived", "have been lived", "have lived"],
+//     correctAnswer: "live",
+//   },
+//   {
+//     question: "what is somu full name?",
+//     options: ["Donkey", "Monkey", "Simran", "All of the above"],
+//     correctAnswer: "All of the above",
+//   },
+//   {
+//     question: "How old is Sia?",
+//     options: ["7", "110", "11", "-6"],
+//     correctAnswer: "11",
+//   },
+//   {
+//     question: "How old is Somu?",
+//     options: ["1", "5", "90", "0.5"],
+//     correctAnswer: "5",
+//   },
+
+// ];
+
+// var questions = [
+//   {
+//     question: "What is my school name?",
+//     options: [
+//       "Nazerth School",
+//       "Nazareth School",
+//       "Nazarth School",
+//       "Nazreeat School",
+//     ],
+//     correctAnswer: "Nazareth School",
+//   },
+
+//   {
+//     question: "What is my favourite colour?",
+//     options: ["Yellow", "Cyan", "Purple", "Pink"],
+//     correctAnswer: "Cyan",
+//   },
+
+//   {
+//     question: "What is my favourite snacks [Junk Food]?",
+//     options: ["Pizza", "Burger", "French Fries", "Biryani"],
+//     correctAnswer: "French Fries",
+//   },
+
+//   {
+//     question: "What is my favourite fruit?",
+//     options: ["Grapes", "Orange", "Mango", "Banana"],
+//     correctAnswer: "Orange",
+//   },
+
+//   {
+//     question: "What is my Favourite Game?",
+//     options: ["Minecraft", "Roblox", "Mini Militia", "Stumble Guy"],
+//     correctAnswer: "Mini Militia",
+//   },
+
+//   {
+//     question: "Who is my BFF?",
+//     options: ["Thanushree", "Nitya", "Pavani", "Nisheta"],
+//     correctAnswer: "Nitya",
+//   },
+
+//   {
+//     question: "What I like the most?",
+//     options: ["Painting", "Writing", "Calligraphy", "Oil pastels"],
+//     correctAnswer: "Oil pastels",
+//   },
+
+//   {
+//     question: "Who is my favourite cartoon character?",
+//     options: ["Pokemon", "Doremon", "Naruto", "Sinchain"],
+//     correctAnswer: "Pokemon",
+//   },
+
+//   {
+//     question: "Who is my favourite youtuber?",
+//     options: ["Defused Devil", "Techno Gamerz", "Flame plays", "DK dost"],
+//     correctAnswer: "Techno Gamerz",
+//   },
+
+//   {
+//     question: "What is my favourite game [Outdoor]?",
+//     options: ["Basket Ball", "Volley Ball", "Karate", "Football"],
+//     correctAnswer: "Volley Ball",
+//   },
+
+//   {
+//     question: "What is my favourite flower?",
+//     options: ["Rose", "Tulip", "Lily", "Dahlia"],
+//     correctAnswer: "Tulip",
+//   },
+
+//   {
+//     question: "What is my favourite season?",
+//     options: ["Spring", "Rainy", "Summer", "Winter"],
+//     correctAnswer: "Spring",
+//   },
+
+//   {
+//     question: "What is my favourite number?",
+//     options: ["3", "4", "2", "1"],
+//     correctAnswer: "2",
+//   },
+// ];
+
+var questions = [
+  {
+    question: "What is my favourite Vegitable?",
+    options: ["Pumpkin", "Lady Finger", "Pears", "Cauliflower"],
+    correctAnswer: "Lady Finger",
+  },
+
+  {
+    question: "What is my favourite Beverage?",
+    options: ["Milk", "Juice", "Coffee", "Tea"],
+    correctAnswer: "Coffee",
+  },
+
+  {
+    question: "What is my favourite snacks [Junk Food]?",
+    options: ["Pizza", "Burger", "French Fries", "Garlic Bread"],
+    correctAnswer: "Burger",
+  },
+
+  {
+    question: "What is my favourite fruit?",
+    options: ["Linchi", "Apple", "Watermalone", "Banana"],
+    correctAnswer: "Linchi",
+  },
+
+  {
+    question: "What is my Favourite Game?",
+    options: [
+      "Doll House",
+      "Horrer Town",
+      "Baby in the Yellow",
+      "Car Simulator",
+    ],
+    correctAnswer: "Baby in the Yellow",
+  },
+
+  {
+    question: "Who is my BFF?",
+    options: ["Taaisha", "Kavya", "Divyanka", "Vidhi"],
+    correctAnswer: "Kavya",
+  },
+
+  {
+    question: "What I like the most?",
+    options: ["Painting", "Writing", "Calligraphy", "Oil pastels"],
+    correctAnswer: "Calligraphy",
+  },
+
+  {
+    question: "Who is my favourite cartoon character?",
+    options: ["Peppa Pig", "Doremon", "Masha in the Bear", "Sinchain"],
+    correctAnswer: "Masha in the Bear",
+  },
+
+  {
+    question: "Who is my favourite Youtuber?",
+    options: ["Megha Chaube", "Saurav Joshi", "Neetu Bisht", "Mr. Beast"],
+    correctAnswer: "Neetu Bisht",
+  },
+
+  {
+    question: "What is my favourite [Outdoor] Game?",
+    options: ["Hide & Seek", "Skating", "Karate", "Badminton"],
+    correctAnswer: "Hide & Seek",
+  },
+
+  {
+    question: "What is my favourite flower?",
+    options: ["Rose", "Lily", "Lotus", "MarryGold"],
+    correctAnswer: "Rose",
+  },
+
+  {
+    question: "What i love to Wear?",
+    options: ["Sharara", "Suit", "Sarri", "Lehenga"],
+    correctAnswer: "Lehenga",
+  },
+
+  {
+    question: "What is my favourite number?",
+    options: ["7", "34", "12", "9"],
+    correctAnswer: "9",
+  },
+];
+export default questions;

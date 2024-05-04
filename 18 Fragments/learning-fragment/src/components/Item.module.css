@@ -1,0 +1,16 @@
+.kg-span {
+  font-weight: 500;
+  color: black;
+}
+
+.button {
+  background-color: lightgreen;
+  color: blue;
+  font-weight: 500;
+  }
+
+  .kg-item {
+    background-color: rgb(227, 240, 128);
+    color: blue;
+    font-weight: 500;
+    }
